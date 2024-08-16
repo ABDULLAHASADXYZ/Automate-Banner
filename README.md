@@ -28,8 +28,9 @@ This script automates the process of setting up a custom banner on your Linux sy
 2. **Commands For Parrot**: Execute the provided script to configure the banner.
 
    ```bash
-   chmod +x setup-banner.sh
-   sudo ./setup-banner.sh
+   git clone https://github.com/ABDULLAHASADXYZ/Automate-Banner.git
+   cd Automate-Banner
+   bash Parrot-install.sh
    ```
 
 ## Usage
