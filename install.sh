@@ -1,6 +1,6 @@
-Loop=/$HOME/My-Banner/
+Loop=$HOME/Automate-Banner/
 IL=abdullah
-OP=/$HOME/Automate-Banner/abdullah/abdullah/
+OP=$HOME/Automate-Banner/abdullah/abdullah/
 LY=/usr/local/bin/
 HU=https://github.com/ABDULLAHASADXYZ/abdullah.git
 
