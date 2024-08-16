@@ -20,9 +20,10 @@ This script automates the process of setting up a custom banner on your Linux sy
 1. **Clone the Repository**: Clone this repository to your local machine.
 
    ```bash
-   git clone https://github.com/yourusername/your-repository.git
-   cd your-repository
-   ```
+   git clone https://github.com/ABDULLAHASADXYZ/Automate-Banner.git
+   cd Automate-Banner
+   bash install.sh
+   ``` 
 
 2. **Run the Setup Script**: Execute the provided script to configure the banner.
 
