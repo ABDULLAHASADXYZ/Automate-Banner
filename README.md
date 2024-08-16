@@ -1,49 +1,69 @@
-Automated Banner Setup Script
 
-This repository provides an automated script for setting up a custom banner on your Linux system. The script clones a repository containing the banner configuration, makes necessary files executable, moves them to the appropriate directory, and configures your shell to use the custom banner.
-Features
+---
 
-    Automated Cloning: Clones a specified GitHub repository that contains the banner setup files.
-    File Permissions: Sets executable permissions on the cloned files.
-    Directory Management: Moves files to a system-wide directory for easy access.
-    Shell Configuration: Updates your shell configuration file (.zshrc) to include the custom banner setup.
-    Cleanup: Removes temporary files and directories created during the setup process.
+# Automated Banner Setup Script
 
-Installation
+## Overview
 
-    Clone the Repository: Clone the repository containing the script to your local machine.
+This script automates the process of setting up a custom banner on your Linux system. Designed to work seamlessly with `.zshrc`, it clones a GitHub repository containing the banner setup, configures the necessary files, and updates your shell configuration to display the custom banner.
 
-    bash
+## Features
 
-git clone https://github.com/yourusername/your-repository.git
-cd your-repository
+- **Repository Cloning**: Automatically clones a specified GitHub repository containing banner configuration files.
+- **Executable Setup**: Sets the necessary permissions on the files to make them executable.
+- **System-wide Installation**: Moves the banner setup files to `/usr/local/bin/` for global access.
+- **Shell Integration**: Updates your `.zshrc` file to include the banner setup.
+- **Cleanup**: Removes temporary directories and files created during the setup process.
 
-Run the Script: Execute the script to set up the banner.
+## Installation
 
-bash
+1. **Clone the Repository**: Clone this repository to your local machine.
 
-    chmod +x setup-banner.sh
-    sudo ./setup-banner.sh
+   ```bash
+   git clone https://github.com/yourusername/your-repository.git
+   cd your-repository
+   ```
 
-Script Details
+2. **Run the Setup Script**: Execute the provided script to configure the banner.
 
-The script performs the following actions:
+   ```bash
+   chmod +x setup-banner.sh
+   sudo ./setup-banner.sh
+   ```
 
-    Clones the Banner Repository: The script clones a GitHub repository from a specified URL (https://github.com/ABDULLAHASADXYZ/abdullah.git).
-    Sets Executable Permissions: Changes the permissions of the cloned files to make them executable.
-    Moves Files: Moves the executable banner files to /usr/local/bin/ for system-wide availability.
-    Configures Shell: Updates the .zshrc file to include the path to the banner script.
-    Cleans Up: Deletes the temporary directories created during the process.
+## Script Details
 
-Usage
+The script performs the following operations:
 
-After running the script, the banner configuration will be automatically included in your shell setup. Restart your terminal or run source ~/.zshrc to see the changes take effect.
-Contributing
+1. **Clones the Banner Repository**: Clones the specified GitHub repository from `https://github.com/ABDULLAHASADXYZ/abdullah.git` to a local directory.
+   
+2. **Sets Executable Permissions**: Changes the permissions of the banner file located at `$HOME/Automate-Banner/abdullah/abdullah/` to make it executable.
+   
+3. **Moves the Banner File**: Moves the banner executable to `/usr/local/bin/` for global accessibility.
+   
+4. **Updates Shell Configuration**: Checks if the `.zshrc` file exists in the user's home directory. If not, it creates it and appends the path to the banner executable.
+   
+5. **Cleans Up**: Removes the temporary directory `$HOME/My-Banner/` that was used during the setup.
 
-Contributions are welcome! If you have suggestions for improvements or find any issues, please feel free to submit a pull request or open an issue.
-License
+## Usage
 
-This project is licensed under the MIT License. See the LICENSE file for details.
-Contact
+After running the setup script, the custom banner will be automatically configured for your shell. To see the changes, either restart your terminal or source your `.zshrc` file:
 
-For support or questions, please use the Issues section on GitHub.
+```bash
+source ~/.zshrc
+```
+
+## Contributing
+
+Contributions are welcome! If you have suggestions for enhancements, bug fixes, or other improvements, please submit a pull request or open an issue.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE). See the `LICENSE` file for details.
+
+## Contact
+
+For any questions or support, please open an issue on the [GitHub repository](https://github.com/ABDULLAHASADXYZ/abdullah/issues).
+
+---
+
