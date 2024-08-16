@@ -10,7 +10,7 @@ chmod +x $OP > /dev/null
 
 sudo mv $OP $LY >  /dev/null
 
-LS=/home/$USER/Automate-Banner/abdullah
+LS=abdullah
 
 KP=/home/$USER/.bashrc
 
