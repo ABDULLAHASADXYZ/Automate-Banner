@@ -17,7 +17,7 @@ This script automates the process of setting up a custom banner on your Linux sy
 
 ## Installation
 
-1. **Commands For Kali Linux**: Clone this repository to your local machine.
+1. **Commands For Kali Linux**: Clone this repository to your local machine. Execute the provided script to configure the banner.
 
    ```bash
    git clone https://github.com/ABDULLAHASADXYZ/Automate-Banner.git
@@ -25,7 +25,7 @@ This script automates the process of setting up a custom banner on your Linux sy
    bash install.sh
    ``` 
 
-2. **Commands For Parrot**: Execute the provided script to configure the banner.
+2. **Commands For Parrot**: Clone this repository to your local machine. Execute the provided script to configure the banner.
 
    ```bash
    git clone https://github.com/ABDULLAHASADXYZ/Automate-Banner.git
