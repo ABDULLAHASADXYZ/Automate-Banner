@@ -17,7 +17,7 @@ This script automates the process of setting up a custom banner on your Linux sy
 
 ## Installation
 
-1. **Clone the Repository**: Clone this repository to your local machine.
+1. **Commands For Kali Linux**: Clone this repository to your local machine.
 
    ```bash
    git clone https://github.com/ABDULLAHASADXYZ/Automate-Banner.git
@@ -25,26 +25,12 @@ This script automates the process of setting up a custom banner on your Linux sy
    bash install.sh
    ``` 
 
-2. **Run the Setup Script**: Execute the provided script to configure the banner.
+2. **Commands For Parrot**: Execute the provided script to configure the banner.
 
    ```bash
    chmod +x setup-banner.sh
    sudo ./setup-banner.sh
    ```
-
-## Script Details
-
-The script performs the following operations:
-
-1. **Clones the Banner Repository**: Clones the specified GitHub repository from `https://github.com/ABDULLAHASADXYZ/abdullah.git` to a local directory.
-   
-2. **Sets Executable Permissions**: Changes the permissions of the banner file located at `$HOME/Automate-Banner/abdullah/abdullah/` to make it executable.
-   
-3. **Moves the Banner File**: Moves the banner executable to `/usr/local/bin/` for global accessibility.
-   
-4. **Updates Shell Configuration**: Checks if the `.zshrc` file exists in the user's home directory. If not, it creates it and appends the path to the banner executable.
-   
-5. **Cleans Up**: Removes the temporary directory `$HOME/My-Banner/` that was used during the setup.
 
 ## Usage
 
